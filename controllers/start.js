@@ -19,7 +19,7 @@ const handleStartCommand = async (msg) => {
         full_name: `${msg.from.first_name || ""} ${
           msg.from.last_name || ""
         }`.trim(),
-        referralLink: `https://t.me/Trader_KZBot?start=${chat_id}`,
+        referralLink: `https://t.me/TradeEasyKZBot?start=${chat_id}`,
         invitedBy: referrerId || null,
         registration_date: new Date(),
       });
