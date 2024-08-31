@@ -27,7 +27,7 @@ const generateXlsxWithUserData = async () => {
 
   const worksheetData = [
     [
-      "Chat ID",
+      "Telegram ID",
       "Username",
       "Full Name",
       "Subscription Days Left",
